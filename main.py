@@ -1,3 +1,6 @@
+import os
+os.system("pip install --no-cache-dir -r requirements.txt")
+
 import streamlit as st
 from prediction_helper import predict
 
